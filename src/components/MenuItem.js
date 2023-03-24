@@ -9,5 +9,5 @@ export default function MenuItem({ title, address, Icon }) {
         <p>{title}</p>
       </Link>
     </div>
-  )  
+  )
 }
