@@ -1,12 +1,27 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Results from "@/components/Results";
 
-const inter = Inter({ subsets: ['latin'] })
+const API = 'cfb78e473c17900250f5d9823bf24b86'
 
-export default function Home() {
+
+export default async function Home({ searchParams }) {
+  // const genre = searchParams.genre || 'fetchTrending'
+  const genre = searchParams.genre || "fetchTrending";
+  // const res = await fetch(`https://api.themoviedb.org/3/${genre==='fetchTopRated'? 'movie/top_rated' : 'trending/all/week'}?api_key=${API_KEY}$language=en-US$page=1`, { next: { revalidate: 10000 } })
+  const res = await fetch(
+    `https://api.themoviedb.org/3/${genre === "fetchTopRated" ? "movie/top_rated" : "trending/all/week"
+    }?api_key=${API}&language=en-US&page=1`,
+    { next: { revalidate: 10000 } }
+  );
+  if (!res.ok) {
+    throw new Error("Failed to fetch data");
+  }
+  const data = await res.json()
+  const results = data.results
+  // console.log(results);
   return (
-    <main >
-      <h4 className='text-green-600'>IMDB Clone</h4>
-    </main>
+    <div>
+      {/* <h4 className='text-green-600'>IMDB</h4> */}
+      <Results results={results} />
+    </div>
   )
 }
