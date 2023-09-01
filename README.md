@@ -1,19 +1,12 @@
 This is a NextJS project created with create-next-app
 
-## Getting Started with nextJs 13
+## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Live Demo: For a live demonstration of this project, visit the following link below:
 
-Project Live Link : [Imdb](imdb-next-js.vercel.app) 
+[Imdb](imdb-next-js.vercel.app) 
 
 Open link with your browser to see the result.
 
-# imdb_nextJS
+Feel free to explore, develop, and contribute to this repository to build exciting web applications with Next.js.
