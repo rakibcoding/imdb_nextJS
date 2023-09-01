@@ -12,6 +12,6 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [Imdb](imdb-next-js.vercel.app) with your browser to see the result.
 
 # imdb_nextJS
