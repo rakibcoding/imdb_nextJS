@@ -12,6 +12,8 @@ yarn dev
 pnpm dev
 ```
 
-Open [Imdb](imdb-next-js.vercel.app) with your browser to see the result.
+Project Live Link : [Imdb](imdb-next-js.vercel.app) 
+
+Open link with your browser to see the result.
 
 # imdb_nextJS
