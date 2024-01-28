@@ -1,5 +1,6 @@
-Open link with your browser to see the result.
+# imdb_nextJS
 
+Open link with your browser to see the result.
 
 ## [Imdb](https://imdb-next-js.vercel.app/) 
 
