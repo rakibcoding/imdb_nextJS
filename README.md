@@ -1,18 +1,15 @@
 Open link with your browser to see the result.
 
 
-## [Imdb](imdb-next-js.vercel.app) 
+## [Imdb](https://imdb-next-js.vercel.app/) 
 
 <div align="center">
-<a href="imdb-next-js.vercel.app">
+<a href="https://imdb-next-js.vercel.app/">
 <img  src="https://i.ibb.co/kJfqMKV/imdb-next-js-vercel-app-2024-01-12-08-44-51.png"/>
 </div>
 
 
-
-
-
-
+---
 
 
 
