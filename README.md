@@ -1,7 +1,7 @@
 Open link with your browser to see the result.
 
 
-## [Imdb](imdb-next-js.vercel.app) 
+## [Imdb](https://imdb-next-js.vercel.app/) 
 
 <div align="center">
 <a href="imdb-next-js.vercel.app">
