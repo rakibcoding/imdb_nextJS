@@ -1,7 +1,6 @@
-Open link with your browser to see the result.
 
 
-## Live Demo :  [Imdb](https://imdb-next-js.vercel.app/) 
+## Live Demo :  [https://imdb-next-js.vercel.app](https://imdb-next-js.vercel.app/) 
 
 <div align="center">
 <a href="https://imdb-next-js.vercel.app/">
