@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // output: "export",
   experimental: {
     appDir: true,
   },
   images: {
     domains: ["image.tmdb.org"],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
