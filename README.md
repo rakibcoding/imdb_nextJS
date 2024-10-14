@@ -1,4 +1,7 @@
 
+# imdb_nextJS
+
+Open link with your browser to see the result.
 
 ## Live Demo :  [https://imdb-next-js.vercel.app](https://imdb-next-js.vercel.app/) 
 
